@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
 
+    <!-- Icon Awesome -->
+     <link rel="stylesheet" href="./assets/icon/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
@@ -81,15 +84,86 @@
   <body>
     <header class="header">
       <div class="container">
+        <!-- Header Top -->
         <div class="header-top">
           <!-- Logo -->
           <div class="logo">
-            <img src="./assets/img/logo.jpg" alt="Logo" class="logo__img" />
+            <img src="./assets/img/logo1.jpg" alt="Logo" class="logo__img" />
           </div>
-          <!-- Input -->
-          <input type="text" class="input" />
+          <!-- Form -->
+          <form action="" class="form">
+            <input type="text" class="input" placeholder="Bạn cần tìm gì ?" />
+          <button type="submit" class="btn-search btn">
+            <img src="" alt="" class="btn-search__img" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              class="btn-search__svg"
+            >
+              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+              />
+            </svg>
+          </button>
+          </form>
+          <!-- Contact -->
+          <div class="contact">
+            <div class="contact-phone">
+              <div class="contact-phone__img">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <p class="contact-phone__desc">BÁN HÀNG <b>0123456789 (Miễn phí)</b></p>
+            </div>
+
+            <div class="contact-phone">
+              <div class="contact-phone__img">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <p class="contact-phone__desc">HỆ THỐNG CỬA HÀNG</b></p>
+            </div>
+          </div>
+          <!-- Bag -->
+           <form action="" class="bag">
+            <label for="Bag">Giỏ Hàng</label>
+            <button type="submit" class="btn-bag btn">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </button>
+           </form>
         </div>
       </div>
     </header>
+    <div class="navbar">
+      <div class="container">
+        <div class="navbar-row">
+          <ul class="list">
+            <li class="item">
+              <a href=""></a>
+            </li>
+            <li class="item">
+              <a href=""></a>
+            </li>
+            <li class="item">
+              <a href=""></a>
+            </li>
+            <li class="item">
+              <a href=""></a>
+            </li>
+            <li class="item">
+              <a href=""></a>
+            </li>
+            <li class="item">
+              <a href=""></a>
+            </li>
+            <li class="item">
+              <a href=""></a>
+            </li>
+            <li class="item">
+              <a href=""></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

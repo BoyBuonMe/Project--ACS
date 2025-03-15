@@ -18,17 +18,84 @@ body {
   margin: 0 auto;
 }
 
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 /* Header */
 .header {
   min-height: 100vh;
-  margin-top: 24px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
 }
 
 .logo__img {
-  width: 48px;
-  height: 48px;
+  width: 96px;
+  height: 96px;
   object-fit: cover;
 }
 
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24px;
+}
+
 .input {
+  width: 390px;
+  display: flex;
+  padding: 7px 0;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+}
+
+.btn-search {
+  display: flex;
+  border: none;
+  background-color: inherit;
+  height: 25px;
+}
+
+/* Contact */
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact-phone {
+  display: flex;
+  align-items: center;
+  margin-left: 48px;
+}
+
+.contact-phone__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.bag {
+  display: flex;
+  align-items: center;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.btn-bag {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: #ccc;
+  margin-left: 8px;
 }
